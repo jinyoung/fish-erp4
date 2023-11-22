@@ -85,7 +85,9 @@
                 var obj = {}
                 if(val != undefined) {
                     var arr = this.list[val]._links.self.href.split('/');
-                    obj['accountName'] = arr[4]; 
+                    obj['id'] = arr[4]; 
+                    
+                    
                     
                     
                     

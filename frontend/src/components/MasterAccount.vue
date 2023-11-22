@@ -16,7 +16,7 @@
         </v-card-title >        
 
         <v-card-text>
-            <String v-if="editMode" label="계정 이름" v-model="value.accountName" :editMode="editMode" :inputUI="'TEXT'"/>
+            <String label="계정 이름" v-model="value.accountName" :editMode="editMode" :inputUI="'TEXT'"/>
             <String label="대표자" v-model="value.representative" :editMode="editMode" :inputUI="'TEXT'"/>
             <String label="사업자 번호" v-model="value.businessRegistrationNumber" :editMode="editMode" :inputUI="''"/>
             <Address offline label="주소" v-model="value.address" :editMode="editMode" @change="change"/>

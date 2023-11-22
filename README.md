@@ -33,7 +33,7 @@ mvn spring-boot:run
 ## Test by API
 - master
 ```
- http :8088/accounts accountName="accountName" representative="representative" businessRegistrationNumber="businessRegistrationNumber" address="address" industry="industry" category="category" customerType="customerType" 
+ http :8088/accounts id="id" accountName="accountName" representative="representative" businessRegistrationNumber="businessRegistrationNumber" address="address" industry="industry" category="category" customerType="customerType" 
  http :8088/items itemName="itemName" itemCode="itemCode" itemUnit="itemUnit" 
 ```
 - purchase

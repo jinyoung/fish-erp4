@@ -28,6 +28,7 @@ paths:
                 accounts_json:
                   value:
                   -
+                    id: 1
                     accountName: A string
                     representative: A string
                     businessRegistrationNumber: A string
@@ -47,6 +48,7 @@ paths:
             examples:
               1:
                 value:
+                  id: 1
                   accountName: A string
                   representative: A string
                   businessRegistrationNumber: A string
@@ -64,6 +66,7 @@ paths:
               examples:
                 1:
                   value:
+                    id: 1
                     accountName: A string
                     representative: A string
                     businessRegistrationNumber: A string
@@ -79,12 +82,12 @@ paths:
     get:
       parameters:
       - examples:
-          A string:
-            value: A string
+          1:
+            value: 1
         name: id
         description: Account name
         schema:
-          type: string
+          type: integer
         in: path
         required: true
       responses:
@@ -96,6 +99,7 @@ paths:
               examples:
                 1:
                   value:
+                    id: 1
                     accountName: A string
                     representative: A string
                     businessRegistrationNumber: A string
@@ -116,6 +120,7 @@ paths:
             examples:
               1:
                 value:
+                  id: 1
                   accountName: A string
                   representative: A string
                   businessRegistrationNumber: A string
@@ -128,10 +133,10 @@ paths:
       - examples:
           1:
             value: 1
-        name: accountName
+        name: id
         description: Account name
         schema:
-          type: string
+          type: integer
         in: path
         required: true
       responses:
@@ -143,6 +148,7 @@ paths:
               examples:
                 1:
                   value:
+                    id: 1
                     accountName: A string
                     representative: A string
                     businessRegistrationNumber: A string
@@ -157,7 +163,7 @@ paths:
     - name: id
       description: Account id
       schema:
-        type: string
+        type: integer
       in: path
       required: true
 components:
@@ -167,6 +173,9 @@ components:
       description: The root of the Account type's schema.
       type: object
       properties:
+        id:
+          description: id of this Account
+          type: integer
         accountName:
           description: accountName of this Account
           type: string
@@ -189,6 +198,7 @@ components:
           description: customerType of this Account
           type: string
       example:
+        id: 1
         accountName: A string
         representative: A string
         businessRegistrationNumber: A string

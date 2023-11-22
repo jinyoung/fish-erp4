@@ -66,6 +66,7 @@
             values: [],
             headers: 
                 [
+                    { text: "id", value: "id" },
                     { text: "accountName", value: "accountName" },
                     { text: "representative", value: "representative" },
                     { text: "businessRegistrationNumber", value: "businessRegistrationNumber" },

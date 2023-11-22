@@ -47,9 +47,11 @@
                             
                             
                             
+                            
                         </v-list-item-title>
 
                         <v-list-item-subtitle style="font-size:25px; font-weight:700;">
+                            [ Id :  {{data.id }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ AccountName :  {{data.accountName }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ Representative :  {{data.representative }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             [ BusinessRegistrationNumber :  {{data.businessRegistrationNumber }} ] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
