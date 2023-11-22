@@ -1,0 +1,15 @@
+fisherp/infra/ItemController.class
+fisherp/domain/AccountRepository.class
+fisherp/infra/ItemHateoasProcessor.class
+fisherp/domain/Account.class
+fisherp/config/kafka/KafkaProcessor.class
+fisherp/infra/AccountController.class
+fisherp/infra/PolicyHandler.class
+fisherp/domain/Address.class
+fisherp/MasterApplication.class
+fisherp/domain/Item.class
+fisherp/infra/AbstractEvent.class
+fisherp/infra/AccountHateoasProcessor.class
+fisherp/infra/AbstractEvent$1.class
+fisherp/domain/ItemRepository.class
+fisherp/domain/ItemUnit.class

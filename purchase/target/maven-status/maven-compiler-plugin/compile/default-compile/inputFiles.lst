@@ -1,0 +1,14 @@
+/workspace/fish-erp4/purchase/src/main/java/fisherp/infra/PurchaseHateoasProcessor.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/domain/PurchaseRepository.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/infra/PurchaseController.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/config/kafka/KafkaProcessor.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/domain/FishSold.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/infra/PolicyHandler.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/domain/ItemId.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/domain/PurchaseCreated.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/domain/PurchaseDetail.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/domain/AccountId.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/PurchaseApplication.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/domain/Purchase.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/domain/SaleCommand.java
+/workspace/fish-erp4/purchase/src/main/java/fisherp/infra/AbstractEvent.java

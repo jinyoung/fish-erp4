@@ -13,9 +13,9 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 public interface PurchaseRepository
     extends PagingAndSortingRepository<Purchase, Long> {
     @Query(
-        value = "select purchase " +
-        "from Purchase purchase " +
-        "where(:accountId is null or purchase.accountId like %:accountId%) and (:mainShipName is null or purchase.mainShipName like %:mainShipName%) and (:purchaseDateFrom is null or purchase.purchaseDateFrom like %:purchaseDateFrom%) and (:purchaseDateTo is null or purchase.purchaseDateTo like %:purchaseDateTo%)"
+        value = "select purchase " 
+        + "from Purchase purchase " 
+       // + "where(:accountId is null or purchase.accountId like %:accountId%) and (:mainShipName is null or purchase.mainShipName like %:mainShipName%) and (:purchaseDateFrom is null or purchase.purchaseDateFrom like %:purchaseDateFrom%) and (:purchaseDateTo is null or purchase.purchaseDateTo like %:purchaseDateTo%)"
     )
     List<Purchase> findByQueryPurchase(
         String accountId,

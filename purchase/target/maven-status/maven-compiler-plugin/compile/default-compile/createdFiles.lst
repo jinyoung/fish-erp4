@@ -1,0 +1,15 @@
+fisherp/domain/SaleCommand.class
+fisherp/config/kafka/KafkaProcessor.class
+fisherp/domain/ItemId.class
+fisherp/infra/PurchaseController.class
+fisherp/infra/PolicyHandler.class
+fisherp/domain/FishSold.class
+fisherp/domain/AccountId.class
+fisherp/PurchaseApplication.class
+fisherp/infra/AbstractEvent.class
+fisherp/domain/PurchaseDetail.class
+fisherp/domain/Purchase.class
+fisherp/domain/PurchaseRepository.class
+fisherp/infra/PurchaseHateoasProcessor.class
+fisherp/domain/PurchaseCreated.class
+fisherp/infra/AbstractEvent$1.class

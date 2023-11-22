@@ -1,0 +1,14 @@
+/workspace/fish-erp4/master/src/main/java/fisherp/infra/AbstractEvent.java
+/workspace/fish-erp4/master/src/main/java/fisherp/infra/ItemController.java
+/workspace/fish-erp4/master/src/main/java/fisherp/domain/ItemRepository.java
+/workspace/fish-erp4/master/src/main/java/fisherp/domain/Account.java
+/workspace/fish-erp4/master/src/main/java/fisherp/domain/Item.java
+/workspace/fish-erp4/master/src/main/java/fisherp/domain/AccountRepository.java
+/workspace/fish-erp4/master/src/main/java/fisherp/domain/ItemUnit.java
+/workspace/fish-erp4/master/src/main/java/fisherp/infra/ItemHateoasProcessor.java
+/workspace/fish-erp4/master/src/main/java/fisherp/infra/AccountHateoasProcessor.java
+/workspace/fish-erp4/master/src/main/java/fisherp/infra/AccountController.java
+/workspace/fish-erp4/master/src/main/java/fisherp/MasterApplication.java
+/workspace/fish-erp4/master/src/main/java/fisherp/domain/Address.java
+/workspace/fish-erp4/master/src/main/java/fisherp/infra/PolicyHandler.java
+/workspace/fish-erp4/master/src/main/java/fisherp/config/kafka/KafkaProcessor.java

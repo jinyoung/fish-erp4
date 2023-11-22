@@ -8,7 +8,6 @@ Vue.use(Router);
 import AccountManager from "./components/ui/AccountGrid"
 import ItemManager from "./components/ui/ItemGrid"
 
-import PurchaseManager from "./components/ui/PurchaseGrid"
 
 
 export default new Router({
@@ -26,11 +25,6 @@ export default new Router({
                 component: ItemManager
             },
 
-            {
-                path: '/purchases',
-                name: 'PurchaseManager',
-                component: PurchaseManager
-            },
 
 
 
